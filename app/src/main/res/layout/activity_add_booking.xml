@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtMa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã đặt"/>
+
+        <EditText
+            android:id="@+id/edtNguoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Người đặt"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/edtNgay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày đặt (yyyy-MM-dd)"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/edtSoDem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số đêm"
+            android:inputType="number"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btnHuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hủy"/>
+
+            <Button
+                android:id="@+id/btnLuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

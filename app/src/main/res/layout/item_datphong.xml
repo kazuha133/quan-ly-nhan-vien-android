@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tvMaDat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã đặt: S00..."
+        android:textStyle="bold"
+        android:textColor="#222"/>
+
+    <TextView
+        android:id="@+id/tvNguoiDat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Người đặt: ..."
+        android:textColor="#444"
+        android:paddingTop="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="6dp">
+
+        <TextView
+            android:id="@+id/tvNgayDat"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Ngày đặt: dd/MM/yyyy"
+            android:textColor="#666"/>
+
+        <TextView
+            android:id="@+id/tvSoDem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số đêm: 1"
+            android:textColor="#666"/>
+    </LinearLayout>
+</LinearLayout>
